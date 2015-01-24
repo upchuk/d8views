@@ -12,7 +12,7 @@ use Drupal\views\Plugin\views\filter\InOperator;
 use Drupal\views\ViewExecutable;
 
 /**
- * Filters by node type containing string.
+ * Filters by given list of node title options.
  *
  * @ingroup views_filter_handlers
  *
