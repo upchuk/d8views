@@ -1,0 +1,1 @@
+This is a demo module that illustrates how you interact with the Views API in Drupal 8.
