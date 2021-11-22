@@ -62,7 +62,7 @@ class NodeTypeFlagger extends FieldPluginBase {
    * @{inheritdoc}
    */
   public function render(ResultRow $values) {
-    $node = $values->_entity;
+    $node = $this->getEntity($values);
     if ($node->bundle() == $this->options['node_type']) {
       return $this->t('Hey, I\'m of the type: @type', array('@type' => $this->options['node_type']));
     }

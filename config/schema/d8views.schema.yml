@@ -1,0 +1,11 @@
+views.field.node_type_flagger:
+  type: views_field
+  label: 'Node Type Flagger'
+  mapping:
+    node_type:
+      type: string
+      label: 'The node type'
+
+views.filter.d8views_node_titles:
+  type: views.filter.in_operator
+  label: 'Allowed node titles'

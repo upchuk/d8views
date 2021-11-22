@@ -1,4 +1,4 @@
-name: Drupal 8 Views Demo
-description: 'Demo module that illustrates working with the Drupal 8 Views API'
+name: Drupal Views Demo
+description: 'Demo module that illustrates working with the Drupal 8/9 Views API'
 type: module
-core: 8.x
+core_version_requirement: ^8.9 || ^9
